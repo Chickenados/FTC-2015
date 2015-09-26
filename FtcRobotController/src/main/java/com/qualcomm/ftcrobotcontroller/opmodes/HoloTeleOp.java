@@ -55,7 +55,7 @@ public class HoloTeleOp extends OpMode {
         }
 
         if (gamepad1.right_trigger > 0) {
-            speed = 0.1f;
+            speed = 0.25f;
         } else {
             speed = 1;
         }
