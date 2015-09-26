@@ -105,5 +105,9 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register("HoloTeleOp", HoloTeleOp.class);
     manager.register("LegacyTestTeleOp", LegacyTestTeleOp.class);
 
+    // User Made Autonomous
+
+    manager.register("TestAutonomousOp", TestAutonomousOp.class);
+
   }
 }
